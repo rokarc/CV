@@ -1,5 +1,8 @@
 # CV
+Este link sirve para ver online los archivos html representados graficamente. Renderizado. :P
 http://htmlpreview.github.io/
+
+Copiar de GitHub la url del repo, haciendo click en " ". y de ahi copio la url
 por ejemplo : http://htmlpreview.github.io/?https://raw.githubusercontent.com/rokarc/CV/master/CVRox2015.html
 
 Para subir archivos desde mi maquina
