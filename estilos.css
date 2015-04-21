@@ -4,7 +4,6 @@
 @import url("http://fonts.googleapis.com/css?family=Play");
 @import url("http://fonts.googleapis.com/css?family=Oxygen");
 
-
 html, body {
     /* http://bennettfeely.com/gradients */
     background-blend-mode: screen;
@@ -39,6 +38,12 @@ meter {
     width: 75%;
     height: 1em;
 }
+
+button {
+    width: 25%;
+    height: 2em;
+}
+
 
 
 #header {
