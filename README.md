@@ -38,8 +38,11 @@ git status
 3- Cuando creo dir en git web
 busco el boton clonar que copia la url
 
-Voy a la consola y posicionada en el dir que voy a sincronizar escribo. Ojo es git el que va a crear el dir contenedor del nuevo proyecto.
+Voy a la consola y posicionada en el dir que voy a sincronizar escribo.
+Ojo es git el que va a crear el dir contenedor del nuevo proyecto.
+
 por ejemplo: git clone https://github.com/rokarc/InfoRoxy.git
+
 una vez creado el directorio puedo empezar a trabajar.
 
 
