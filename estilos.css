@@ -1,0 +1,151 @@
+
+/* http://www.google.com/fonts */
+@import url("http://fonts.googleapis.com/css?family=Play");
+@import url("http://fonts.googleapis.com/css?family=Oxygen");
+
+html, body {
+    /* http://bennettfeely.com/gradients */
+    font-family:           Oxygen, sans-serif;
+}
+
+h1 {
+    font-family:           Play, sans-serif;
+    font-weight:           bold;
+    color:                 black;
+}
+
+h2 {
+    font-family:           Play, sans-serif;
+    font-size:             20px;
+}
+
+img {
+    border:                1px dotted gray;
+}
+
+/*img:hover {*/
+/*    filter:                blur(1px) brightness(2);*/
+/*    -webkit-filter:        blur(1px) brightness(2);*/
+/*}*/
+
+meter {
+    width: 75%;
+    height: 1em;
+}
+
+button {
+    background-color:       #F0D471;
+    width: 25%;
+    height: 2em;
+}
+
+#header {
+    background-color:      #F0D471;
+
+    border:                1px dotted gray;
+
+    color:                 #F0E2D0;
+
+    font-family:           Play, sans-serif;
+    font-size:             20px;
+
+    padding:               5px;
+
+    text-align:            center;
+}
+
+#content { 
+    display:              flex;
+
+    height:                100%;
+
+    width:                 100%;
+}
+
+#nav {
+    background:
+        radial-gradient(
+            circle at bottom left,
+            transparent 0,
+            transparent 2em,
+            beige 2em,
+            beige 4em,
+            transparent 4em,
+            transparent 6em,
+            khaki 6em,
+            khaki 8em,
+            transparent 8em,
+            transparent 10em
+        ),
+        radial-gradient(
+            circle at top right,
+            transparent 0,
+            transparent 2em,
+            beige 2em,
+            beige 4em,
+            transparent 4em,
+            transparent 6em,
+            khaki 6em,
+            khaki 8em,
+            transparent 8em,
+            transparent 10em
+        ),
+        radial-gradient(
+            circle at top left,
+            transparent 0,
+            transparent 2em,
+            navajowhite 2em,
+            navajowhite 4em,
+            transparent 4em,
+            transparent 6em,
+            peachpuff 6em,
+            peachpuff 8em,
+            transparent 8em,
+            transparent 10em
+        ),
+        radial-gradient(
+            circle at bottom right,
+            transparent 0,
+            transparent 2em,
+            palegoldenrod 2em,
+            palegoldenrod 4em,
+            transparent 4em,
+            transparent 6em,
+            peachpuff 6em,
+            peachpuff 8em,
+            transparent 8em,
+            transparent 10em
+        ), blanchedalmond;
+
+        background-blend-mode: multiply;
+        background-size: 10em 10em;
+        background-position: 0 0, 0 0, 5em 5em, 5em 5em;
+
+    line-height:           50px;
+    min-width:             200px;
+    text-align:            center;
+    width:                 15%;
+}
+
+#section {
+
+    border:                1px dotted gray;
+
+    padding:               10px;
+
+    width:                 85%;
+}
+
+#footer {
+    background-color:      #F0D471;
+
+    border:                1px dotted gray;
+
+    color:                 black;
+
+    padding:               10px;
+
+    text-align:            center;
+
+    width:                 98,5%;
+}
