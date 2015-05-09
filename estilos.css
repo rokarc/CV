@@ -1,68 +1,88 @@
+@charset utf-8;
+
 
 /* http://www.google.com/fonts */
 @import url("http://fonts.googleapis.com/css?family=Play");
 @import url("http://fonts.googleapis.com/css?family=Oxygen");
 
+
 html, body {
     /* http://bennettfeely.com/gradients */
-    font-family:           Oxygen, sans-serif;
+    font-family:               Oxygen, sans-serif;
 }
 
 h1 {
-    font-family:           Play, sans-serif;
-    font-weight:           bold;
-    color:                 black;
+    color:                     black;
+
+    font-family:               Play, sans-serif;
+    font-weight:               bold;
 }
+
+
 
 h2 {
-    font-family:           Play, sans-serif;
-    font-size:             20px;
+    font-family:               Play, sans-serif;
+    font-size:                 20px;
 }
 
+
+
 img {
-    border:                1px dotted gray;
+    border:                    1px dotted gray;
+    border-radius:             9px;
 }
 
 /*img:hover {*/
-/*    filter:                blur(1px) brightness(2);*/
-/*    -webkit-filter:        blur(1px) brightness(2);*/
-/*}*/
+/*    filter:                  blur(1px) brightness(2);*/
+/*    -webkit-filter:          blur(1px) brightness(2);*/
+/*}
+*/
 
 meter {
-    width: 75%;
-    height: 1em;
+    height:                    1em;
+
+    width:                     75%;
 }
 
 button {
-    background-color:       #F0D471;
-    width: 35%;
-    height: 2em;
+    background-color:          #F0D471;
+    border-radius:             9px;
+
+    height:                    2em;
+
+    width:                     35%;
 }
+
+
 
 #header {
-    background-color:      #F0D471;
+    background-color:          #F0D471;
+    border:                    1px dotted gray;
 
-    border:                1px dotted gray;
+    color:                     #F0E2D0;
 
-    color:                 #F0E2D0;
+    font-family:               Play, sans-serif;
+    font-size:                 20px;
 
-    font-family:           Play, sans-serif;
-    font-size:             20px;
+    padding:                   5px;
 
-    padding:               5px;
-
-    text-align:            center;
+    text-align:                center;
 }
 
-#content { 
-    display:              flex;
 
-    height:                100%;
 
-    width:                 100%;
+#content {
+    display:                   flex;
+
+    height:                    100%;
+
+    width:                     100%;
 }
+
+
 
 #nav {
+    background-blend-mode:     multiply;
     background:
         radial-gradient(
             circle at bottom left,
@@ -116,36 +136,39 @@ button {
             transparent 8em,
             transparent 10em
         ), blanchedalmond;
+    background-position:       0 0, 0 0, 5em 5em, 5em 5em;
+    background-size:           10em 10em;
 
-        background-blend-mode: multiply;
-        background-size: 10em 10em;
-        background-position: 0 0, 0 0, 5em 5em, 5em 5em;
+    line-height:               50px;
 
-    line-height:           50px;
-    min-width:             200px;
-    text-align:            center;
-    width:                 15%;
+    min-width:                 200px;
+
+    text-align:                center;
+
+    width:                     15%;
 }
+
+
 
 #section {
+    border:                    1px dotted gray;
 
-    border:                1px dotted gray;
+    padding:                   10px;
 
-    padding:               10px;
-
-    width:                 85%;
+    width:                     85%;
 }
 
+
+
 #footer {
-    background-color:      #F0D471;
+    background-color:          #F0D471;
+    border:                    1px dotted gray;
 
-    border:                1px dotted gray;
+    color:                     black;
 
-    color:                 black;
+    padding:                   10px;
 
-    padding:               10px;
+    text-align:                center;
 
-    text-align:            center;
-
-    width:                 98,5%;
+    width:                     99%;
 }
