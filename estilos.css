@@ -13,16 +13,16 @@ html, body {
 
 h1 {
     color:                     black;
-
     font-family:               Play, sans-serif;
     font-weight:               bold;
+    font-size:                 40px;
 }
 
 
 
 h2 {
     font-family:               Play, sans-serif;
-    font-size:                 20px;
+    font-size:                 25px;
 }
 
 
@@ -47,7 +47,7 @@ meter {
 button {
     background-color:          #F0D471;
     border-radius:             9px;
-
+    font-size:                 15px;
     height:                    2em;
 
     width:                     35%;
@@ -57,26 +57,38 @@ button {
 
 #header {
     background-color:          #F0D471;
-    border:                    1px dotted gray;
+    border:                    1px dotted #F0D471;
+    border-radius:             9px;
 
     color:                     #F0E2D0;
 
     font-family:               Play, sans-serif;
     font-size:                 20px;
 
-    padding:                   5px;
+    margin-left:               6px;
+
+    padding:                   10px;
+    padding-top:               20px;
 
     text-align:                center;
+
+    width:                     96%;
 }
 
 
 
 #content {
+    font-size:                 15px;
+
     display:                   flex;
 
-    height:                    100%;
+    padding:                   9px;
 
-    width:                     100%;
+    margin-left:               2px;
+
+    height:                    70%;
+
+    width:                     97%;
 }
 
 
@@ -139,36 +151,55 @@ button {
     background-position:       0 0, 0 0, 5em 5em, 5em 5em;
     background-size:           10em 10em;
 
+    border:                    1px dotted #F0D471;
+    border-radius:             9px;
+
     line-height:               50px;
 
     min-width:                 200px;
 
+    margin-left:               3px;
+
+    font-size:                 20px;
+
+    padding:                   5px;
+
     text-align:                center;
 
-    width:                     15%;
+    width:                     13%;
 }
 
 
 
 #section {
-    border:                    1px dotted gray;
+    background-color:          #fff;
+
+    border:                    1px dotted #fff;
+    border-radius:             9px;
+
+    font-size:                 18px;
+
+    margin-left:               20px;
 
     padding:                   10px;
 
-    width:                     85%;
+    width:                     99%;
 }
 
 
 
 #footer {
     background-color:          #F0D471;
-    border:                    1px dotted gray;
+    border:                    1px dotted #F0D471;
+    border-radius:             9px;
 
     color:                     black;
+
+    margin-left:               6px;
 
     padding:                   10px;
 
     text-align:                center;
 
-    width:                     99%;
+    width:                     96%;
 }

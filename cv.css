@@ -1,0 +1,16 @@
+/*para refresca, tipo F5, el doc cada treinta seg
+ * <meta http-equiv="refresh" content="30">
+ */
+
+
+#wrapper {
+    background-color:       #E7E2B4;
+    border:                 30px #F0D471;
+    max-width:              900px;
+    width:                  100%;
+    height:                 90%;
+    margin-left:            auto;
+    margin-right:           auto;
+    margin-top:             0px;
+    min-height:             700px;
+}
