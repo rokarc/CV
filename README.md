@@ -2,7 +2,7 @@
 
 ...
 
-** Para ver mi CV haz click a la siguiente url: http://htmlpreview.github.io/?https://raw.githubusercontent.com/rokarc/CV/master/CVRox2015.html**
+Para ver mi CV haz click a la siguiente url: http://htmlpreview.github.io/?https://raw.githubusercontent.com/rokarc/CV/master/CVRox2015.html
 ...
 
 
