@@ -80,12 +80,10 @@ hr {
 }
 
 
-
 .content {
+    display:                   flex;
 
     font-size:                 15px;
-
-    display:                   flex;
 
     padding:                   0px;
 
@@ -181,12 +179,14 @@ hr {
 
     font-size:                 18px;
 
-    margin-left:                25px;
-    margin-right:               25px;
+    margin-left:               25px;
+    margin-right:              25px;
 
-    padding:                   10px;
+    line-height:               21px;
 
-    width:                     100%;
+    padding:                   23px;
+
+    width:                     97%;
 }
 
 
