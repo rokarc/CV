@@ -26,17 +26,15 @@ h2 {
 }
 
 
-
 img {
     border:                    1px dotted gray;
     border-radius:             9px;
 }
 
-/*img:hover {*/
-/*    filter:                  blur(1px) brightness(2);*/
-/*    -webkit-filter:          blur(1px) brightness(2);*/
-/*}
-*/
+
+#imgmobile {
+    display:                   none;
+}
 
 meter {
     height:                    1em;
@@ -53,6 +51,12 @@ button {
     width:                     35%;
 }
 
+hr {
+    color:                    transparent;
+    width:                    100%;
+    height:                   0px;
+
+}
 
 
 #header {
@@ -77,23 +81,23 @@ button {
 
 
 
-#content {
+.content {
+
     font-size:                 15px;
 
     display:                   flex;
 
-    padding:                   9px;
+    padding:                   0px;
 
     margin-left:               2px;
 
-    height:                    70%;
+    height:                    100%;
 
-    width:                     97%;
+    width:                     100%;
 }
 
 
-
-#nav {
+.nav {
     background-blend-mode:     multiply;
     background:
         radial-gradient(
@@ -156,22 +160,20 @@ button {
 
     line-height:               50px;
 
-    min-width:                 200px;
+    min-width:                 160px;
 
-    margin-left:               3px;
+    margin-left:               15px;
 
     font-size:                 20px;
 
-    padding:                   5px;
+    padding:                   15px;
 
     text-align:                center;
 
-    width:                     13%;
 }
 
 
-
-#section {
+.section {
     background-color:          #fff;
 
     border:                    1px dotted #fff;
@@ -179,11 +181,12 @@ button {
 
     font-size:                 18px;
 
-    margin-left:               20px;
+    margin-left:                25px;
+    margin-right:               25px;
 
     padding:                   10px;
 
-    width:                     99%;
+    width:                     100%;
 }
 
 
@@ -203,3 +206,25 @@ button {
 
     width:                     96%;
 }
+
+
+@media screen and (max-width:450px) {
+    .nav{
+        display:              none;
+    }
+
+    #imgmobile {
+        display:              inherit;
+        margin-left:          25%;
+    }
+
+    button {
+        margin-left:          35%;
+    }
+
+    #header {
+        width:                100%;
+    }
+}
+
+
