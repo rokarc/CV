@@ -7,96 +7,85 @@
 
 
 html, body {
-    /* http://bennettfeely.com/gradients */
-    font-family:               Oxygen, sans-serif;
+    font-family:           Oxygen, sans-serif;
 }
+
 
 h1 {
-    color:                     black;
-    font-family:               Play, sans-serif;
-    font-weight:               bold;
-    font-size:                 40px;
+    color:                 black;
+    font-family:           Play, sans-serif;
+    font-size:             40px;
+    font-weight:           bold;
 }
-
 
 
 h2 {
-    font-family:               Play, sans-serif;
-    font-size:                 25px;
+    font-family:           Play, sans-serif;
+    font-size:             25px;
 }
 
 
 img {
-    border:                    1px dotted gray;
-    border-radius:             9px;
+    border:                1px dotted gray;
+    border-radius:         9px;
 }
 
 
 #imgmobile {
-    display:                   none;
+    display:               none;
 }
+
 
 meter {
-    height:                    1em;
-
-    width:                     75%;
+    height:                1em;
+    width:                 75%;
 }
+
 
 button {
-    background-color:          #F0D471;
-    border-radius:             9px;
-    font-size:                 15px;
-    height:                    2em;
-
-    width:                     35%;
+    background-color:      #F0D471;
+    border-radius:         9px;
+    cursor:                pointer;
+    font-size:             15px;
+    height:                2em;
+    width:                 35%;
 }
 
-hr {
-    color:                    transparent;
-    width:                    100%;
-    height:                   0px;
 
+hr {
+    border-color:          transparent;
+    color:                 transparent;
+    height:                0;
+    width:                 100%;
 }
 
 
 #header {
-    background-color:          #F0D471;
-    border:                    1px dotted #F0D471;
-    border-radius:             9px;
-
-    color:                     #F0E2D0;
-
-    font-family:               Play, sans-serif;
-    font-size:                 20px;
-
-    margin-left:               6px;
-
-    padding:                   10px;
-    padding-top:               20px;
-
-    text-align:                center;
-
-    width:                     96%;
+    background-color:      #F0D471;
+    border:                1px dotted #F0D471;
+    border-radius:         9px;
+    color:                 #F0E2D0;
+    font-family:           Play, sans-serif;
+    font-size:             20px;
+    margin-left:           6px;
+    padding:               10px;
+    padding-top:           20px;
+    text-align:            center;
+    width:                 96%;
 }
 
 
 .content {
-    display:                   flex;
-
-    font-size:                 15px;
-
-    padding:                   0px;
-
-    margin-left:               2px;
-
-    height:                    100%;
-
-    width:                     100%;
+    display:               flex;
+    font-size:             15px;
+    height:                100%;
+    margin-left:           2px;
+    padding:               0;
+    width:                 100%;
 }
 
 
 .nav {
-    background-blend-mode:     multiply;
     background:
         radial-gradient(
             circle at bottom left,
@@ -150,81 +139,63 @@ hr {
             transparent 8em,
             transparent 10em
         ), blanchedalmond;
-    background-position:       0 0, 0 0, 5em 5em, 5em 5em;
-    background-size:           10em 10em;
-
-    border:                    1px dotted #F0D471;
-    border-radius:             9px;
-
-    line-height:               50px;
-
-    min-width:                 160px;
-
-    margin-left:               15px;
-
-    font-size:                 20px;
-
-    padding:                   15px;
-
-    text-align:                center;
-
+    background-position:   0 0, 0 0, 5em 5em, 5em 5em;
+    background-size:       10em 10em;
+    border:                1px dotted #F0D471;
+    border-radius:         9px;
+    font-size:             20px;
+    line-height:           50px;
+    margin-left:           15px;
+    min-width:             160px;
+    padding:               15px;
+    text-align:            center;
+    background-blend-mode: multiply;
 }
 
 
 .section {
-    background-color:          #fff;
-
-    border:                    1px dotted #fff;
-    border-radius:             9px;
-
-    font-size:                 18px;
-
-    margin-left:               25px;
-    margin-right:              25px;
-
-    line-height:               21px;
-
-    padding:                   23px;
-
-    width:                     97%;
+    background-color:      #fff;
+    border:                1px dotted #fff;
+    border-radius:         9px;
+    font-size:             18px;
+    line-height:           21px;
+    margin-left:           25px;
+    margin-right:          25px;
+    padding:               23px;
+    width:                 97%;
 }
-
 
 
 #footer {
-    background-color:          #F0D471;
-    border:                    1px dotted #F0D471;
-    border-radius:             9px;
-
-    color:                     black;
-
-    margin-left:               6px;
-
-    padding:                   10px;
-
-    text-align:                center;
-
-    width:                     96%;
+    background-color:      #F0D471;
+    border:                1px dotted #F0D471;
+    border-radius:         9px;
+    color:                 black;
+    margin-left:           6px;
+    padding:               10px;
+    text-align:            center;
+    width:                 96%;
 }
 
 
+/* media query breakpoints */
 @media screen and (max-width:450px) {
-    .nav{
-        display:              none;
+
+    .nav {
+        display:           none;
     }
 
     #imgmobile {
-        display:              inherit;
-        margin-left:          25%;
+        display:           inherit;
+        margin-left:       25%;
     }
 
     button {
-        margin-left:          35%;
+        margin-left:       35%;
     }
 
     #header {
-        width:                100%;
+        width:             100%;
     }
+
 }
-
-
